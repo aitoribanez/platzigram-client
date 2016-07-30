@@ -1,6 +1,6 @@
 'use strict'
 
-import uuid from 'uuid-base62'
+const uuid = require('uuid-base62')
 
 const fixtures = {
   getImage () {
